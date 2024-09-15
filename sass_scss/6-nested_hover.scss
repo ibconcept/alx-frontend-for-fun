@@ -1,8 +1,11 @@
-button {
-  color: #FF0000;
-}
+$color-text: #FF0000;
+$color-hover: #00FF00;
 
-button:hover {
-  color: #00FF00;
+button {
+  color: $color-text;
+
+  &:hover {
+    color: $color-hover;
+  }
 }
 
